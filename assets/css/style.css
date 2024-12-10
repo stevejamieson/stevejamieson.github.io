@@ -23,9 +23,11 @@ body {
 
 canvas {
     display: block;
+    position: relative;
 }
 
 #mydiv {
+    position: absolute;
     background-color: whitesmoke;
     height: 100px;
     width: 100px
