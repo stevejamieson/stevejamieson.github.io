@@ -22,9 +22,12 @@ body {
     background: #000;
 }
 
+#myparent {
+    position: relative;
+}
+
 canvas {
     display: block;
-    position: relative;
 }
 
 #mydiv {
@@ -32,5 +35,5 @@ canvas {
     background-color: whitesmoke;
     height: 300px;
     width: 300px;
-    padding-left: 440px;
+    padding-left: 340px;
 }
