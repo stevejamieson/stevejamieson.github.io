@@ -18,17 +18,12 @@
 }
 
 body {
-    position: relative;
-    background: #000;
-}
-
-#myparent {
-    position: relative;
+     background: #000;
 }
 
 canvas {
+    position: relative;
     display: block;
-
 }
 
 #mydiv {
