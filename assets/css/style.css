@@ -23,11 +23,13 @@ body {
 
 canvas {
     position: relative;
-    display: block;
+    display: inline;
 }
 
 #mydiv {
     position: absolute;
+    display: inline;
+    opacity: 0.2;
     background-color: whitesmoke;
     height: 300px;
     width: 300px;
