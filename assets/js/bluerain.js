@@ -22,7 +22,7 @@ let rainFontNumber = 0;
 let showEmojis = true;
 let showTextShadow = false;
 
-const canvas = document.querySelector("canvas"),
+const canvas = document.querySelector("container"),
     ctx = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;
