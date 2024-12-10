@@ -23,9 +23,9 @@ body {
 
 bgcanvas {
     position: fixed;
+    display: block;
 }
 canvas {
-    display: block;
 }
 
 #mydiv {
