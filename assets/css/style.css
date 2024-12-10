@@ -27,7 +27,7 @@ body {
 }
 
 canvas {
-    display: block;
+    display: none;
 }
 
 #mydiv {
