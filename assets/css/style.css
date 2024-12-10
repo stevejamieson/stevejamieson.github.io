@@ -21,17 +21,20 @@ body {
      background: #000;
 }
 
+bgcanvas {
+    position: fixed;
+}
 canvas {
-    position: relative;
-    display: inline;
+    display: block;
 }
 
 #mydiv {
     position: absolute;
-    display: inline;
+    display: block;
     opacity: 0.2;
     background-color: whitesmoke;
     height: 300px;
     width: 300px;
-    padding-left: 340px;
+    padding-left: 110px;
+    margin: auto;
 }
