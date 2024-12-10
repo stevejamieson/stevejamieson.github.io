@@ -21,11 +21,28 @@ body {
      background: #000;
 }
 
+.container {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    height: 100%;
+    padding: 20px;
+}
+
+    .container > div {
+        background-color: #faa;
+        padding: 10px;
+    }
+
+
+
 bgcanvas {
     position: fixed;
     display: block;
 }
+
 canvas {
+    display: block;
 }
 
 #mydiv {
