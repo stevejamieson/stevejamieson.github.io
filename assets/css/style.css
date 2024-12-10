@@ -28,7 +28,7 @@ canvas {
 }
 
 #mydiv {
-    position: absolute;
+    position: static;
     background-color: whitesmoke;
     height: 300px;
     width: 300px;
