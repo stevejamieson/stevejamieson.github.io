@@ -43,6 +43,7 @@ bgcanvas {
 
 canvas {
     display: block;
+    user-select: none;
 }
 
 #mydiv {

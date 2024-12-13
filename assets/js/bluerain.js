@@ -1,6 +1,3 @@
-// WARNING code is ugly I just wanted to make
-// something fast to see if I could do it lol
-
 let pauseAnimation = false;
 
 const colors = {
