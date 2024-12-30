@@ -67,6 +67,25 @@ body {
     height: 100vh;
 }
 
+/*Up pointing*/
+.triangle-up {
+    width: 10%;
+    height: 0;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+    .triangle-up:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        margin-left: -500px;
+        border-left: 500px solid transparent;
+        border-right: 500px solid transparent;
+        border-bottom: 500px solid #4679BD;
+    }
+
 .circles {
     position: absolute;
     top: 0;
