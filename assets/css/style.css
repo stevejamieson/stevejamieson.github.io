@@ -82,7 +82,7 @@ body {
         list-style: none;
         width: 0;
         height: 0;
-        animation: animate 25s linear infinite;
+        animation: animate 45s linear infinite;
         bottom: -150px;
         margin-left: -70px;
         border-left: 70px solid transparent;
@@ -103,6 +103,13 @@ body {
             width: 110px;
             height: 110px;
             animation-delay: 4s;
+            animation-duration: 50s;
+        }
+        .triangles li:nth-child(3) {
+            left: 110%;
+            width: 222px;
+            height: 222px;
+            animation-delay: 2s;
             animation-duration: 50s;
         }
 
