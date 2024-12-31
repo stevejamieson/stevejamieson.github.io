@@ -82,32 +82,39 @@ body {
         list-style: none;
         width: 0;
         height: 0;
-        animation: animate 45s linear infinite;
+        animation: animate 25s linear infinite;
         bottom: -150px;
-        border-top: 100px solid;
-        border-left: 100px solid transparent;
-        border-bottom: 70px solid rgba(255, 255, 255, 0.2);
+        margin-left: -500px;
+        border-left: 500px solid transparent;
+        border-right: 500px solid transparent;
+        border-bottom: 500px solid rgba(255, 255, 255, 0.2);
     }
+
 .triangles li:nth-child(1) {
     left: 25%;
-    width: 110px;
-    height: 110px;
-    animation-delay: 0s;
+    width: 80px;
+    height: 80px;
+    animation-delay: 1s;
 }
-    .triangles li:nth-child(2) {
-        left: 80%;
-        width: 210px;
-        height: 210px;
-        animation-delay: 4s;
-        animation-duration: 50s;
-    }
-    .triangles li:nth-child(3) {
-        left: 110%;
-        width: 22px;
-        height: 22px;
-        animation-delay: 2s;
-        animation-duration: 50s;
-    }
+
+.triangles li:nth-child(2) {
+    left: 80%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 42s;
+}
+
+.triangles li:nth-child(3) {
+    left: 70%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 3s;
+    animation-duration: 66s;
+}
+
+
+
 
 .circles {
     position: absolute;
@@ -205,3 +212,19 @@ body {
             animation-duration: 11s;
         }
 
+
+
+@keyframes animate {
+
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
