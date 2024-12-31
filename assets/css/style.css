@@ -96,25 +96,20 @@ body {
     height: 110px;
     animation-delay: 0s;
 }
-
-
-        .triangles li:nth-child(2) {
-            left: 80%;
-            width: 110px;
-            height: 110px;
-            animation-delay: 4s;
-            animation-duration: 50s;
-        }
-        .triangles li:nth-child(3) {
-            left: 110%;
-            width: 222px;
-            height: 222px;
-            animation-delay: 2s;
-            animation-duration: 50s;
-        }
-
-
-
+    .triangles li:nth-child(2) {
+        left: 80%;
+        width: 110px;
+        height: 110px;
+        animation-delay: 4s;
+        animation-duration: 50s;
+    }
+    .triangles li:nth-child(3) {
+        left: 110%;
+        width: 222px;
+        height: 222px;
+        animation-delay: 2s;
+        animation-duration: 50s;
+    }
 
 .circles {
     position: absolute;
@@ -212,19 +207,3 @@ body {
             animation-duration: 11s;
         }
 
-
-
-@keyframes animate {
-
-    0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-        border-radius: 0;
-    }
-
-    100% {
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
-        border-radius: 50%;
-    }
-}
