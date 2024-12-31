@@ -67,24 +67,50 @@ body {
     height: 100vh;
 }
 
-/*Up pointing*/
-.triangle-up {
-    width: 10%;
-    height: 0;
-    padding-left: 10%;
-    padding-bottom: 10%;
+.triangles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
-    .triangle-up:after {
+    .triangles li {
         content: "";
+        position: absolute;
         display: block;
+        list-style: none;
         width: 0;
         height: 0;
+        background: rgba(255, 255, 255, 0.2);
+        animation: animate 25s linear infinite;
+        bottom: -150px;
         margin-left: -500px;
         border-left: 500px solid transparent;
         border-right: 500px solid transparent;
         border-bottom: 500px solid #4679BD;
     }
+
+
+
+.triangles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+        .triangles li:nth-child(2) {
+            left: 10%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 2s;
+            animation-duration: 12s;
+        }
+
+
+
 
 .circles {
     position: absolute;
