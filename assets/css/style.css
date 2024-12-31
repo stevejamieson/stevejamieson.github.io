@@ -103,7 +103,7 @@ body {
     width: 0px;
     height: 20px;
     animation-delay: 2s;
-    animation-duration: 42s;
+    animation-duration: 142s;
 }
 
 .triangles li:nth-child(3) {
@@ -127,41 +127,7 @@ body {
             animation-delay: 6s;
             animation-duration: 46s;
         }
-        .triangles li:nth-child(6) {
-            left: 70%;
-            width: 0px;
-            height: 140px;
-            animation-delay: 3s;
-            animation-duration: 16s;
-        }
-        .triangles li:nth-child(7) {
-            left: 70%;
-            width: 0px;
-            height: 7px;
-            animation-delay: 2s;
-            animation-duration: 46s;
-        }
-        .triangles li:nth-child(8) {
-            left: 70%;
-            width: 40px;
-            height: 40px;
-            animation-delay: 1s;
-            animation-duration: 56s;
-        }
-        .triangles li:nth-child(9) {
-            left: 70%;
-            width: 40px;
-            height: 40px;
-            animation-delay: 4s;
-            animation-duration: 36s;
-        }
-        .triangles li:nth-child(10) {
-            left: 70%;
-            width: 40px;
-            height: 40px;
-            animation-delay: 3s;
-            animation-duration: 166s;
-        }
+
 
 
 
