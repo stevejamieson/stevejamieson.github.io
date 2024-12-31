@@ -85,8 +85,8 @@ body {
         animation: animate 25s linear infinite;
         bottom: -175px;
         border-top: 50px solid rgba(255, 255, 255, 0.2);
-        border-left: 50px solid transparent rgba(255, 255, 255, 0.2);
-        border-right: 50px solid transparent rgba(255, 255, 255, 0.2);
+        border-left: 50px solid  rgba(255, 255, 255, 0.2);
+        border-right: 50px solid  rgba(255, 255, 255, 0.2);
     }
 
 .triangles li:nth-child(1) {
