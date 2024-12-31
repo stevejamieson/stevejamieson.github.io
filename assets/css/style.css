@@ -94,24 +94,24 @@ body {
 .triangles li:nth-child(1) {
     left: 25%;
     width: 0px;
-    height: 80px;
+    height: 50px;
     animation-delay: 1s;
 }
 
 .triangles li:nth-child(2) {
     left: 80%;
     width: 0px;
-    height: 20px;
+    height: 50px;
     animation-delay: 2s;
-    animation-duration: 142s;
+    animation-duration: 42s;
 }
 
 .triangles li:nth-child(3) {
     left: 70%;
     width: 0px;
-    height: 40px;
+    height: 50px;
     animation-delay: 3s;
-    animation-duration: 66s;
+    animation-duration: 50s;
 }
         .triangles li:nth-child(4) {
             left: 30%;
@@ -123,9 +123,9 @@ body {
         .triangles li:nth-child(5) {
             left: 70%;
             width: 0px;
-            height: 180px;
+            height: 30px;
             animation-delay: 6s;
-            animation-duration: 46s;
+            animation-duration: 76s;
         }
 
 
