@@ -79,10 +79,10 @@ body {
         width: 0px;
         height: 0px;
         margin: 20px auto;
-        border-top: 100px solid rgba(255, 255, 255, 0.2);
-        border-bottom: 100px solid red;
-        border-right: 100px solid rgba(255, 255, 255, 0.2);
-        border-left: 100px solid rgba(255, 255, 255, 0.2);
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid rgba(255, 255, 255, 0.2);
+        border-right: 100px solid transparent;
+        border-left: 100px solid transparent;
     }
 
 .triangles li:nth-child(1) {
