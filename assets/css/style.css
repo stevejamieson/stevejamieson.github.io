@@ -76,13 +76,19 @@ body {
     overflow: hidden;
 }
     .triangles li {
+        content: "";
+        position: absolute;
+        display: block;
+        list-style: none;
+        animation: animate 25s linear infinite;
+        bottom: -150px;
         width: 0px;
         height: 0px;
         margin: 20px auto;
-        border-top: 100px solid transparent;
-        border-bottom: 100px solid rgba(255, 255, 255, 0.2);
-        border-right: 100px solid transparent;
-        border-left: 100px solid transparent;
+        border-top: 100px solid black;
+        border-bottom: 100px solid red;
+        border-right: 100px solid green;
+        border-left: 100px solid blue;
     }
 
 .triangles li:nth-child(1) {
@@ -94,7 +100,7 @@ body {
 
 .triangles li:nth-child(2) {
     left: 80%;
-    width: 2px;
+    width: 0px;
     height: 20px;
     animation-delay: 2s;
     animation-duration: 42s;
@@ -102,7 +108,7 @@ body {
 
 .triangles li:nth-child(3) {
     left: 70%;
-    width: 6px;
+    width: 40px;
     height: 40px;
     animation-delay: 3s;
     animation-duration: 66s;
