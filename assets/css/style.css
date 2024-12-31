@@ -82,13 +82,12 @@ body {
         list-style: none;
         width: 0;
         height: 0;
-        background: rgba(255, 255, 255, 0.2);
         animation: animate 25s linear infinite;
         bottom: -150px;
         margin-left: -500px;
         border-left: 500px solid transparent;
         border-right: 500px solid transparent;
-        border-bottom: 500px solid #4679BD;
+        border-bottom: 500px solid white;
     }
 
 
