@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CJHLStatsAPI</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #0d253f; color: white; text-align: center; padding: 2rem; }
+    section { padding: 2rem; }
+    h2 { color: #0d253f; }
+    .audience { margin-bottom: 2rem; }
+    footer { background: #eee; text-align: center; padding: 1rem; }
+    .cta { background: #ff4c29; color: white; padding: 1rem; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CJHLStatsAPI</h1>
+    <p>Open-source hockey analytics for everyone</p>
+    <a class="cta" href="https://github.com/stevejamieson/CJHLStatsAPI">Explore on GitHub</a>
+  </header>
+
+  <section>
+    <h2>For Scouts</h2>
+    <div class="audience">
+      <p>“Affordable insights for spotting tomorrow’s stars today.”</p>
+      <p>“Level the playing field — pro-level stats without the pro-level contracts.”</p>
+    </div>
+
+    <h2>For Bloggers & Writers</h2>
+    <div class="audience">
+      <p>“Turn numbers into stories — CJHLStatsAPI makes hockey data easy to write about.”</p>
+      <p>“Your shortcut from box scores to bold headlines.”</p>
+    </div>
+
+    <h2>For Podcasters</h2>
+    <div class="audience">
+      <p>“Weekly stat packs that fuel smarter hockey conversations.”</p>
+      <p>“Bring data-driven storytelling to your podcast without breaking the bank.”</p>
+    </div>
+
+    <h2>For the Hockey Analytics Community</h2>
+    <div class="audience">
+      <p>“Open-source hockey analytics for everyone — scouts, creators, and fans.”</p>
+      <p>“Democratizing hockey data, one stat at a time.”</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created by Steve Jamieson | <a href="mailto:stevejamieson@gmail.com">Contact</a></p>
+  </footer>
+</body>
+</html>
